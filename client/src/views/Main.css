@@ -1,0 +1,17 @@
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+table{
+    width: 35em;
+    height: 10em;
+}
+th{
+    height: 2.5em;
+    background-color: #cccccc;
+    font-size: 20px;
+}
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}

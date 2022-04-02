@@ -1,0 +1,69 @@
+.Detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3{
+    margin-top: 0.05em;
+    font-size: 25px;
+}
+#Remove-Btn{
+    width: 15em;
+    height: auto;
+    margin-bottom: 1em;
+    font-size: 19px;
+    background-color: #cf2a27;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+img{
+    height: 1em;
+}
+.Wrapper{
+    border: 2px solid black;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3em 3em 3em 5em;
+}
+.Sub-Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+}
+#Skills{
+    margin-left: 4em;
+    margin-top: -0.7em;
+    font-size: 18px;
+}
+.skill{
+    margin-bottom: -1em;
+}
+div.Info>h3, div.Sub-Info>h3{
+    font-size: 18px;
+    font-weight: none;
+}
+h3>span{
+    margin-left: 2em;
+    font-weight: normal;
+}
+h3:first-child>span{
+    margin-left: 3.3em;
+}
+#Like-Btn{
+    width: 15em;
+    height: auto;
+    font-size: 19px;
+    background-color: #009e0f;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+    box-shadow: 3px 3px black;
+    margin: 3em 20em 3em 0em;
+}
+

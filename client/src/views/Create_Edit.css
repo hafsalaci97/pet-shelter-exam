@@ -1,0 +1,52 @@
+.Create-Pet{
+    background-color: white;
+    height: auto;
+    border: 2px solid black;
+}
+#Add-Btn{
+    width: 15em;
+    height: 2em;
+    font-size: 16px;
+    background-color: #2b78e4;
+    border: 1px solid black;
+    font-weight: bold;
+    color: black;
+    box-shadow: 3px 3px black;
+}
+img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+.Form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Left-Form, .Right-Form{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.Left-Input{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    align-self: flex-start;
+}
+label{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    align-self: flex-start;
+}
+.Right-Input{
+    display: flex;
+    flex-direction: column;    
+    margin: 2em;
+    align-self: flex-start;
+}
+input{
+    width: 15em;
+    height: 1.5em;
+}
